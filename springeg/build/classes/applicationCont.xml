@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans  
+    xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:p="http://www.springframework.org/schema/p"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+       http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">  
+       
+<bean id="e" class="springeg.Marks">  
+<constructor-arg value="Bhagii" type="String"></constructor-arg> 
+   <constructor-arg value="80" type="int"  ></constructor-arg>  
+  <constructor-arg value="79" type="int"  ></constructor-arg> 
+  <constructor-arg value="92" type="int"  ></constructor-arg>    
+ </bean>
+ </beans>  
